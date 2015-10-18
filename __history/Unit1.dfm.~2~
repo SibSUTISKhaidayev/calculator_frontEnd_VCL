@@ -1,0 +1,56 @@
+object mainFrom: TmainFrom
+  Left = 0
+  Top = 0
+  Caption = 'calcularot'
+  ClientHeight = 292
+  ClientWidth = 462
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object GB_Layout0: TGroupBox
+    Left = 0
+    Top = 0
+    Width = 462
+    Height = 292
+    Margins.Left = 0
+    Margins.Top = 0
+    Margins.Right = 0
+    Margins.Bottom = 0
+    Align = alClient
+    TabOrder = 0
+    ExplicitLeft = 144
+    ExplicitTop = 112
+    ExplicitWidth = 185
+    ExplicitHeight = 105
+    object GB_Layout_edits: TGroupBox
+      Left = 2
+      Top = 15
+      Width = 458
+      Height = 105
+      Margins.Top = 0
+      Align = alTop
+      TabOrder = 0
+      ExplicitLeft = 136
+      ExplicitTop = 96
+      ExplicitWidth = 185
+      object E_illustrate_does: TEdit
+        Left = 2
+        Top = 15
+        Width = 454
+        Height = 21
+        Align = alTop
+        BiDiMode = bdRightToLeft
+        ParentBiDiMode = False
+        TabOrder = 0
+        Text = '0'
+        StyleElements = [seFont, seClient]
+      end
+    end
+  end
+end

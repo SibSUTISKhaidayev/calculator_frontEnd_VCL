@@ -1,0 +1,31 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit1H
+#define Unit1H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <System.Actions.hpp>
+#include <Vcl.ActnList.hpp>
+//---------------------------------------------------------------------------
+class TmainFrom : public TForm
+{
+__published:	// IDE-managed Components
+	TGroupBox *GB_Layout0;
+	TGroupBox *GB_Layout_edits;
+	TEdit *E_illustrateDoes;
+	TEdit *E_inputValue;
+	TGroupBox *GB_buttonLayout;
+	TActionList *mainActions;
+	TAction *btnGeneration;
+	TAction *historySaving;
+private:	// User declarations
+public:		// User declarations
+	__fastcall TmainFrom(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TmainFrom *mainFrom;
+//---------------------------------------------------------------------------
+#endif
