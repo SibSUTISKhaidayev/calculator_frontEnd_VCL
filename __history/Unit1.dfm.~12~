@@ -102,15 +102,12 @@ object mainFrom: TmainFrom
     end
     object act_keySeven: TAction
       Caption = '7'
-      OnExecute = act_keySevenExecute
     end
     object act_keyEight: TAction
       Caption = '8'
-      OnExecute = act_keyEightExecute
     end
     object act_keyNine: TAction
       Caption = '9'
-      OnExecute = act_keyNineExecute
     end
     object act_keyDifference: TAction
       Caption = '/'
@@ -120,30 +117,24 @@ object mainFrom: TmainFrom
     end
     object act_keyFour: TAction
       Caption = '4'
-      OnExecute = act_keyFourExecute
     end
     object act_keyFive: TAction
       Caption = '5'
-      OnExecute = act_keyFiveExecute
     end
     object act_keySix: TAction
       Caption = '6'
-      OnExecute = act_keySixExecute
     end
     object act_keyMultiplication: TAction
       Caption = '*'
     end
     object act_keyOne: TAction
       Caption = '1'
-      OnExecute = act_keyOneExecute
     end
     object act_keyTwo: TAction
       Caption = '2'
-      OnExecute = act_keyTwoExecute
     end
     object act_keyTree: TAction
       Caption = '3'
-      OnExecute = act_keyTreeExecute
     end
     object act_keySubstraction: TAction
       Caption = '-'

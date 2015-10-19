@@ -128,22 +128,18 @@ object mainFrom: TmainFrom
     end
     object act_keySix: TAction
       Caption = '6'
-      OnExecute = act_keySixExecute
     end
     object act_keyMultiplication: TAction
       Caption = '*'
     end
     object act_keyOne: TAction
       Caption = '1'
-      OnExecute = act_keyOneExecute
     end
     object act_keyTwo: TAction
       Caption = '2'
-      OnExecute = act_keyTwoExecute
     end
     object act_keyTree: TAction
       Caption = '3'
-      OnExecute = act_keyTreeExecute
     end
     object act_keySubstraction: TAction
       Caption = '-'

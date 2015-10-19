@@ -96,21 +96,3 @@ void __fastcall TmainFrom::act_keySixExecute(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
-void __fastcall TmainFrom::act_keyOneExecute(TObject *Sender)
-{
-    equivalent("1");
-}
-//---------------------------------------------------------------------------
-
-void __fastcall TmainFrom::act_keyTwoExecute(TObject *Sender)
-{
-    equivalent("2");
-}
-//---------------------------------------------------------------------------
-
-void __fastcall TmainFrom::act_keyTreeExecute(TObject *Sender)
-{
-    equivalent("3");
-}
-//---------------------------------------------------------------------------
-

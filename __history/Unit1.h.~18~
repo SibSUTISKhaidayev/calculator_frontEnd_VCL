@@ -54,9 +54,6 @@ __published:	// IDE-managed Components
 	void __fastcall act_keyFourExecute(TObject *Sender);
 	void __fastcall act_keyFiveExecute(TObject *Sender);
 	void __fastcall act_keySixExecute(TObject *Sender);
-	void __fastcall act_keyOneExecute(TObject *Sender);
-	void __fastcall act_keyTwoExecute(TObject *Sender);
-	void __fastcall act_keyTreeExecute(TObject *Sender);
 private:	// User declarations
 	void equivalent(UnicodeString value);
 public:		// User declarations
