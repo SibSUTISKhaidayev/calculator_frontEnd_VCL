@@ -91,7 +91,6 @@ object mainFrom: TmainFrom
     end
     object act_keyClearAll: TAction
       Caption = 'C'
-      OnExecute = act_keyClearAllExecute
     end
     object act_keyInverSign: TAction
       Caption = #177

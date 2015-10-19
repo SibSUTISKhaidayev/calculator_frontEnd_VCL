@@ -83,15 +83,12 @@ object mainFrom: TmainFrom
     Top = 200
     object act_keyBackspace: TAction
       Caption = #172
-      OnExecute = act_keyBackspaceExecute
     end
     object act_keyClearValue: TAction
       Caption = 'CV'
-      OnExecute = act_keyClearValueExecute
     end
     object act_keyClearAll: TAction
       Caption = 'C'
-      OnExecute = act_keyClearAllExecute
     end
     object act_keyInverSign: TAction
       Caption = #177
@@ -126,6 +123,9 @@ object mainFrom: TmainFrom
     object act_keyMultiplication: TAction
       Caption = '*'
     end
+    object act_keyEqual: TAction
+      Caption = '='
+    end
     object act_keyOne: TAction
       Caption = '1'
     end
@@ -137,9 +137,6 @@ object mainFrom: TmainFrom
     end
     object act_keySubstraction: TAction
       Caption = '-'
-    end
-    object act_keyEqual: TAction
-      Caption = '='
     end
     object act_keyZiro: TAction
       Caption = '0'

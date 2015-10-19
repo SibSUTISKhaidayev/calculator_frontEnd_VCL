@@ -83,15 +83,12 @@ object mainFrom: TmainFrom
     Top = 200
     object act_keyBackspace: TAction
       Caption = #172
-      OnExecute = act_keyBackspaceExecute
     end
     object act_keyClearValue: TAction
       Caption = 'CV'
-      OnExecute = act_keyClearValueExecute
     end
     object act_keyClearAll: TAction
       Caption = 'C'
-      OnExecute = act_keyClearAllExecute
     end
     object act_keyInverSign: TAction
       Caption = #177

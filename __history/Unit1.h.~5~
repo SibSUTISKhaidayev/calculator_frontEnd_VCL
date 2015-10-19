@@ -32,21 +32,14 @@ __published:	// IDE-managed Components
 	TAction *act_keyEight;
 	TAction *act_keyNine;
 	TAction *act_keyZiro;
-	TAction *act_keyBackspace;
-	TAction *act_keyClearValue;
+	TAction *act_keyBAckspace;
+	TAction *act_keyClear;
 	TAction *act_keyClearAll;
 	TAction *act_keySqrt;
 	TAction *act_keyDifference;
 	TAction *act_keyMultiplication;
 	TAction *act_keySubstraction;
 	TAction *act_keySumm;
-	TAction *act_keyEqual;
-	TAction *act_keyDecimalDot;
-	TAction *act_keyInverSign;
-	TAction *act_keyPercent;
-	void __fastcall act_keyBackspaceExecute(TObject *Sender);
-	void __fastcall act_keyClearValueExecute(TObject *Sender);
-	void __fastcall act_keyClearAllExecute(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TmainFrom(TComponent* Owner);

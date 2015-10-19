@@ -38,9 +38,3 @@ void __fastcall TmainFrom::act_keyClearValueExecute(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
-void __fastcall TmainFrom::act_keyClearAllExecute(TObject *Sender)
-{
-	E_illustrateDoes->Text = "";
-}
-//---------------------------------------------------------------------------
-

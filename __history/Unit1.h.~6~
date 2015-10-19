@@ -44,9 +44,6 @@ __published:	// IDE-managed Components
 	TAction *act_keyDecimalDot;
 	TAction *act_keyInverSign;
 	TAction *act_keyPercent;
-	void __fastcall act_keyBackspaceExecute(TObject *Sender);
-	void __fastcall act_keyClearValueExecute(TObject *Sender);
-	void __fastcall act_keyClearAllExecute(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TmainFrom(TComponent* Owner);

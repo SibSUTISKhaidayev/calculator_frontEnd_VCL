@@ -32,15 +32,3 @@ void __fastcall TmainFrom::act_keyBackspaceExecute(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
-void __fastcall TmainFrom::act_keyClearValueExecute(TObject *Sender)
-{
-	E_inputValue->Text = 0;
-}
-//---------------------------------------------------------------------------
-
-void __fastcall TmainFrom::act_keyClearAllExecute(TObject *Sender)
-{
-	E_illustrateDoes->Text = "";
-}
-//---------------------------------------------------------------------------
-

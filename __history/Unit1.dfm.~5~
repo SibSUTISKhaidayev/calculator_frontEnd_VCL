@@ -81,74 +81,59 @@ object mainFrom: TmainFrom
   object btnActionsMain: TActionList
     Left = 144
     Top = 200
-    object act_keyBackspace: TAction
-      Caption = #172
-      OnExecute = act_keyBackspaceExecute
-    end
-    object act_keyClearValue: TAction
-      Caption = 'CV'
-      OnExecute = act_keyClearValueExecute
-    end
-    object act_keyClearAll: TAction
-      Caption = 'C'
-      OnExecute = act_keyClearAllExecute
-    end
-    object act_keyInverSign: TAction
-      Caption = #177
-    end
-    object act_keySqrt: TAction
-      Caption = #8730
-    end
-    object act_keySeven: TAction
-      Caption = '7'
-    end
-    object act_keyEight: TAction
-      Caption = '8'
-    end
-    object act_keyNine: TAction
-      Caption = '9'
-    end
-    object act_keyDifference: TAction
-      Caption = '/'
-    end
-    object act_keyPercent: TAction
-      Caption = 'act_keyPercent'
-    end
-    object act_keyFour: TAction
-      Caption = '4'
-    end
-    object act_keyFive: TAction
-      Caption = '5'
-    end
-    object act_keySix: TAction
-      Caption = '6'
-    end
-    object act_keyMultiplication: TAction
-      Caption = '*'
-    end
     object act_keyOne: TAction
-      Caption = '1'
+      Caption = 'act_keyOne'
     end
     object act_keyTwo: TAction
-      Caption = '2'
+      Caption = 'act_keyTwo'
     end
     object act_keyTree: TAction
-      Caption = '3'
+      Caption = 'act_keyTree'
     end
-    object act_keySubstraction: TAction
-      Caption = '-'
+    object act_keyFour: TAction
+      Caption = 'act_keyFour'
     end
-    object act_keyEqual: TAction
-      Caption = '='
+    object act_keyFive: TAction
+      Caption = 'act_keyFive'
+    end
+    object act_keySix: TAction
+      Caption = 'act_keySix'
+    end
+    object act_keySeven: TAction
+      Caption = 'act_keySeven'
+    end
+    object act_keyEight: TAction
+      Caption = 'act_keyEight'
+    end
+    object act_keyNine: TAction
+      Caption = 'act_keyNine'
     end
     object act_keyZiro: TAction
-      Caption = '0'
+      Caption = 'act_keyZiro'
     end
-    object act_keyDecimalDot: TAction
-      Caption = '.'
+    object act_keyBAckspace: TAction
+      Caption = 'act_keyBAckspace'
+    end
+    object act_keyClear: TAction
+      Caption = 'act_keyClear'
+    end
+    object act_keyClearAll: TAction
+      Caption = 'act_keyClearAll'
+    end
+    object act_keySqrt: TAction
+      Caption = 'act_keySqrt'
+    end
+    object act_keyDifference: TAction
+      Caption = 'act_keyDifference'
+    end
+    object act_keyMultiplication: TAction
+      Caption = 'act_keyMultiplication'
+    end
+    object act_keySubstraction: TAction
+      Caption = 'act_keySubstraction'
     end
     object act_keySumm: TAction
-      Caption = '+'
+      Caption = 'act_keySumm'
     end
   end
 end
