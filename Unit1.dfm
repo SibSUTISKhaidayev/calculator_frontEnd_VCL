@@ -70,6 +70,7 @@ object mainFrom: TmainFrom
     end
   end
   object mainActions: TActionList
+    OnExecute = mainActionsExecute
     Left = 136
     Top = 152
     object btnGeneration: TAction
@@ -93,12 +94,9 @@ object mainFrom: TmainFrom
       Caption = 'C'
       OnExecute = act_keyClearAllExecute
     end
-    object act_keyInverSign: TAction
-      Caption = #177
-      OnExecute = act_keyInverSignExecute
-    end
     object act_keySqrt: TAction
       Caption = #8730
+      OnExecute = act_keySqrtExecute
     end
     object act_keySeven: TAction
       Caption = '7'

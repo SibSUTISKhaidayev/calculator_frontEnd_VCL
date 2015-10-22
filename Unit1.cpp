@@ -16,7 +16,7 @@ __fastcall TmainFrom::TmainFrom(TComponent* Owner)
 }
 //---------------------------------------------------------------------------
 
-void equivalent(UnicodeString value)
+void TmainFrom::equivalent(UnicodeString value)
 {
 	UnicodeString currentValue = E_inputValue->Text,
 				  newValue;
@@ -28,6 +28,8 @@ void equivalent(UnicodeString value)
 
 	E_inputValue->Text = newValue;
 }
+//---------------------------------------------------------------------------
+//---- USER METHODS ----------
 //---------------------------------------------------------------------------
 
 void __fastcall TmainFrom::act_keyBackspaceExecute(TObject *Sender)
@@ -111,6 +113,31 @@ void __fastcall TmainFrom::act_keyTwoExecute(TObject *Sender)
 void __fastcall TmainFrom::act_keyTreeExecute(TObject *Sender)
 {
     equivalent("3");
+}
+//---------------------------------------------------------------------------
+// ------ math signs -------
+
+void __fastcall TmainFrom::act_keySqrtExecute(TObject *Sender)
+{
+
+	//calculator::ixtent(StrToInt)
+}
+//---------------------------------------------------------------------------
+
+//void __fastcall act_keyInverSignExecute(TObject *Sender)
+//{
+//    //
+//}
+
+void __fastcall TmainFrom::mainActionsExecute(TBasicAction *Action, bool &Handled)
+
+{
+	int i = 0;
+	for (int i = 0; i < 5; i++) {
+		btn[i] = new TButton(this);
+		btn[i].Parent = mainFrom->GB_buttonLayout;
+	}
+
 }
 //---------------------------------------------------------------------------
 
